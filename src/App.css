@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+ul{
+  display:flex;
+  list-style: none;
+  padding:0px;
+  margin: 10px 0px;
+  border-bottom: 2px solid aqua;
+}
+#subitem{
+  border: 1px solid aqua;
+  display: none;
+  position: absolute;
+ 
+}
+li{
+  padding:10px 20px;
+  text-align: left;
+  
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+li:hover #subitem{
+  display: block;
+}
+a:hover{
+  color: aqua;
+}
